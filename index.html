@@ -1,0 +1,160 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>PTI | Interactive Quiz</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/style.css" />
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/script.js"></script>
+	<script src="js/functions.js"></script>
+    <script src="js/particle.js"></script>
+    <script src="js/show-hide.js"></script>
+    <script src="js/jquery.cycle.all.js"></script>
+    <script type="text/javascript">
+		$('#slider').cycle({ 
+		fx:     'scrollHorz', 
+		speed:  900, 
+		timeout: 900, 
+		next:   '#next', 
+		prev:   '#prev' 
+		});
+	
+	</script>
+</head>
+<body>
+	<header>
+    	<div class="contain">
+            <a href="index.html">
+            	<img src="img/pti_success_white.png">
+			</a>
+        </div>
+    </header>
+    <div id="main">
+    	<h1>Interactive Quiz</h1>
+        <div id="content-home">
+            <div id="home">
+                <div class="slideshow-container">
+                    <div class="slideshow-inner">
+                      <div class="controller" id="prev"></div>
+                      <div class="controller" id="next"></div>
+                        <div id="slider">
+                            <img src="img/slide1.gif"  alt="asdkmasd" />
+                            <img src="img/slide2.gif"  alt="asdkmasd" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h3><a id="buttonStart" class="btn">Begin Quiz!</a></h3>
+        </div>
+        <div id="content-q1">
+            <h2 id="question">1.) Pittsburgh Technical Institute first opened up as the School of Management Engineering in downtown Pittsburgh. What year did it first open up?</h2>
+            <div id="quiz-answers">
+                <div id="q1b1" class="buttons toQ2"><h3>1946</h3></div>
+                <div id="q1b2" class="buttons toQ2"><h3>1985</h3></div>
+                <div id="q1b3" class="buttons toQ2"><h3>2000</h3></div>
+                <div id="q1b4" class="buttons toQ2"><h3>1990</h3></div>
+            </div>
+        </div>
+        <div id="content-q2">
+            <h2 id="question">2.) There is a Video Studio located on the second floor of PTI which gives students access to video cameras, lights, microphones, and many more piece of equipment; it also has a built in green screen room and many sound booths for voice recording. How many student studio monitors work there throughout the day?</h2>
+            <div id="quiz-answers">
+                <div id="q2b1" class="buttons toQ3"><h3>One</h3></div>
+                <div id="q2b2" class="buttons toQ3"><h3>Two</h3></div>
+                <div id="q2b3" class="buttons toQ3"><h3>Three</h3></div>
+                <div id="q2b4" class="buttons toQ3"><h3>Four</h3></div>
+            </div>
+        </div>
+        <div id="content-q3">
+            <h2 id="question">3.) Which one of these is a picture of Mr. Moody?</h2>
+            <div id="quiz-answers">
+                <div id="q3b1" class="buttons toQ4"><img src="img/img_schurter.jpg"></div>
+                <div id="q3b2" class="buttons toQ4"><img src="img/img_moody.jpg"></div>
+                <div id="q3b3" class="buttons toQ4"><img src="img/img_lish.jpg"></div>
+                <div id="q3b4" class="buttons toQ4"><img src="img/img_bums.jpg"></div>
+            </div>
+        </div>
+        <div id="content-q4">
+            <h2 id="question">4.) What time is the 208 computer lab open on Saturday?</h2>
+            <div id="quiz-answers">
+                <div id="q4b1" class="buttons toQ5"><h3>7:30 a.m. - 4:30 p.m.</h3></div>
+                <div id="q4b2" class="buttons toQ5"><h3>7:00 a.m. - 8:00 p.m.</h3></div>
+                <div id="q4b3" class="buttons toQ5"><h3>6:00 a.m. - 10:00 p.m.</h3></div>
+                <div id="q4b4" class="buttons toQ5"><h3>7:00 a.m. - 10:00 p.m.</h3></div>
+            </div>
+        </div>
+        <div id="content-q5">
+            <h2 id="question">5.) If you are on the second floor, and you take the staircase up one level, which floor are you on?</h2>
+            <div id="quiz-answers">
+                <div id="q5b1" class="buttons toQ6"><h3>First</h3></div>
+                <div id="q5b2" class="buttons toQ6"><h3>Third</h3></div>
+                <div id="q5b3" class="buttons toQ6"><h3>Fourth</h3></div>
+                <div id="q5b4" class="buttons toQ6"><h3>Sixth</h3></div>
+            </div>
+        </div>
+        <div id="content-q6">
+            <h2 id="question">6.) How many touch screen's are located on the fifth floor?</h2>
+            <div id="quiz-answers">
+                <div id="q6b1" class="buttons toQ7"><h3>Two</h3></div>
+                <div id="q6b2" class="buttons toQ7"><h3>Three</h3></div>
+                <div id="q6b3" class="buttons toQ7"><h3>I don't know</h3></div>
+                <div id="q6b4" class="buttons toQ7"><h3>One</h3></div>
+            </div>
+        </div>
+        <div id="content-q7">
+            <h2 id="question">7.) Greg DeFeo, our hard-working, laid back, totally hip president, has a Twitter account. What username does he use?</h2>
+            <div id="quiz-answers">
+                <div id="q7b1" class="buttons toQ8"><h3>@GregDeFeo</h3></div>
+                <div id="q7b2" class="buttons toQ8"><h3>@PTIprez</h3></div>
+                <div id="q7b3" class="buttons toQ8"><h3>@GregMoneyBeatz</h3></div>
+                <div id="q7b4" class="buttons toQ8"><h3>@PTIgreg</h3></div>
+            </div>
+        </div>
+        <div id="content-q8">
+            <h2 id="question">8.) There are 11 different departments at PTI, including the School of Design, the School of Energy and Electronic Technology, and the American Academy of Culinary Arts... with all departments combined, how many different programs are offered?</h2>
+            <div id="quiz-answers">
+                <div id="q8b1" class="buttons toQ9"><h3>11</h3></div>
+                <div id="q8b2" class="buttons toQ9"><h3>25</h3></div>
+                <div id="q8b3" class="buttons toQ9"><h3>31</h3></div>
+                <div id="q8b4" class="buttons toQ9"><h3>40</h3></div>
+            </div>
+        </div>
+        <div id="content-q9">
+            <h2 id="question">9.) How many Mac and PC computers are there in the 208 computer Lab?</h2>
+            <div id="quiz-answers">
+                <div id="q9b1" class="buttons toQ10"><h3>72</h3></div>
+                <div id="q9b2" class="buttons toQ10"><h3>125</h3></div>
+                <div id="q9b3" class="buttons toQ10"><h3>144</h3></div>
+                <div id="q9b4" class="buttons toQ10"><h3>150</h3></div>
+            </div>
+        </div>
+        <div id="content-q10">
+            <h2 id="question">10.) Two students created this game from what program?</h2>
+            <div id="quiz-answers">
+                <div id="q10b1" class="buttons toConfirm"><h3>Multimedia Video/3-D</h3></div>
+                <div id="q10b2" class="buttons toConfirm"><h3>Multimedia Web/Interactive</h3></div>
+                <div id="q10b3" class="buttons toConfirm"><h3>Computer Programming</h3></div>
+                <div id="q10b4" class="buttons toConfirm"><h3>Graphic Design</h3></div>
+            </div>
+        </div>
+        <div id="results">
+        	<h3 id="final-result"></h3>
+            <p id="para"></p>
+            <a id="return" href="index.html">Return</a>
+        </div>
+		<div id="progress-bar">
+        	<a class="questions btn"><div id="question1">1</div></a>
+            <a class="questions btn"><div id="question2">2</div></a>
+            <a class="questions btn"><div id="question3">3</div></a>
+            <a class="questions btn"><div id="question4">4</div></a>
+            <a class="questions btn"><div id="question5">5</div></a>
+            <a class="questions btn"><div id="question6">6</div></a>
+            <a class="questions btn"><div id="question7">7</div></a>
+            <a class="questions btn"><div id="question8">8</div></a>
+            <a class="questions btn"><div id="question9">9</div></a>
+            <a class="questions btn"><div id="question10">10</div></a>
+        </div>
+	</div>
+</body>
+</html>
